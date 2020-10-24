@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="index.css" media="screen"/>
+
+<script src="health.js"></script>
+
+
+<title>Planner</title>
+
+
+
+<div class="header">
+  <h1>Planner</h1>
+
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="">Classes</a></li>
+  <li><a href="">Meals</a></li>
+  <li><a href="">Health</a></li>
+</ul>
+
+</div>
+
+
+</head>
+
+<body>
+
+<h1>Health</h1>
+
+<div class="rectangle" height=400px width=300px> 
+	<br>
+	Water Tracking
+	<br>
+	<br>
+	I just drank <input type="text" id="newwater" name="newwater" style="width: 20px"> oz of water!
+	<br>
+	<br>
+	<button type="button" onclick=addWater()> Add </button>
+
+	<p id="wateramount"> Total: 0 oz </p>
+
+<div class="smallrectangle" id ="glass" >
+	
+	<div class="smallerrectangle" id = "bluewater"></div> 
+</div> 
+
+<br>
+Goal: 100 oz
+	<!--
+	<div class="rectangle" height=10px width=10px> water</div>
+	-->
+
+</div>
+
+
+
+</body>
+
+
+
+</html>
